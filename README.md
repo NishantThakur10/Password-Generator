@@ -1,12 +1,46 @@
-# React + Vite
+# Password Generator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
+A simple and efficient password generator built using Vite, React, and Tailwind CSS. This project allows users to create secure passwords with customizable length and character options.
 
-Currently, two official plugins are available:
+## Features
+- Generate strong and random passwords
+- Customize password length
+- Copy generated password to clipboard
+- User-friendly UI with responsive design
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Technologies Used
+- [Vite](https://vitejs.dev/) - Fast frontend tooling
+- [React](https://react.dev/) - JavaScript library for building user interfaces
+- [Tailwind CSS](https://tailwindcss.com/) - Utility-first CSS framework
 
-## Expanding the ESLint configuration
+## Installation
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. Clone the repository:
+   ```sh
+   git clone [https://github.com/NishantThakur10/Password-Generator.git](https://github.com/NishantThakur10/Password-Generato)
+   git clone 
+   cd password-generator
+   ```
+2. Install dependencies:
+   ```sh
+   npm install
+   ```
+3. Start the development server:
+   ```sh
+   npm run dev
+   ```
+4. Open your browser and go to `http://localhost:5173/` (default Vite port).
+
+## Usage
+- Adjust password settings (length, character types)
+- Click the "Generate Password" button
+- Copy the generated password with one click
+
+## Build for Production
+To create an optimized production build, run:
+```sh
+npm run build
+```
+
+
